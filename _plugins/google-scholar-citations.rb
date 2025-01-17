@@ -1,6 +1,6 @@
 require "active_support/all"
-require 'nokogiri'
-require 'open-uri'
+require "nokogiri"
+require "open-uri"
 
 module Helpers
   extend ActiveSupport::NumberHelper
@@ -8,7 +8,7 @@ end
 
 module Jekyll
   class GoogleScholarCitationsTag < Liquid::Tag
-    Citations = { }
+    Citations = {}
 
     def initialize(tag_name, params, tokens)
       super
@@ -18,61 +18,56 @@ module Jekyll
     end
 
     def render(context)
+      # Resolve variables from Liquid context
       article_id = context[@article_id.strip]
       scholar_id = context[@scholar_id.strip]
+
+      # Construct the article URL
       article_url = "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=#{scholar_id}&citation_for_view=#{scholar_id}:#{article_id}"
 
       begin
-          # If the citation count has already been fetched, return it
-          if GoogleScholarCitationsTag::Citations[article_id]
-            return GoogleScholarCitationsTag::Citations[article_id]
-          end
+        # Check if the citation count is already cached
+        if Citations[article_id]
+          return Citations[article_id]
+        end
 
-          # Sleep for a random amount of time to avoid being blocked
-          sleep(rand(1.5..3.5))
+        # Sleep to avoid triggering anti-scraping measures
+        sleep(rand(1.5..3.5))
 
-          # Fetch the article page
-          doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+        # Fetch the article page with a realistic User-Agent
+        doc = Nokogiri::HTML(
+          URI.open(article_url, "User-Agent" => "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+        )
 
-          # Attempt to extract the "Cited by n" string from the meta tags
-          citation_count = 0
+        # Extract citation count from the HTML
+        citation_count = 0
+        cited_by_text = doc.text.match(/Cited by (\d+[,\d]*)/)
 
-          # Look for meta tags with "name" attribute set to "description"
-          description_meta = doc.css('meta[name="description"]')
-          og_description_meta = doc.css('meta[property="og:description"]')
+        if cited_by_text
+          citation_count = cited_by_text[1].gsub(",", "").to_i
+        end
 
-          if !description_meta.empty?
-            cited_by_text = description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
+        # Format the citation count (e.g., 1.2K, 3M)
+        citation_count = Helpers.number_to_human(citation_count, format: "%n%u", precision: 2, units: { thousand: "K", million: "M", billion: "B" })
 
-            if matches
-              citation_count = matches[1].sub(",", "").to_i
-            end
-
-          elsif !og_description_meta.empty?
-            cited_by_text = og_description_meta[0]['content']
-            matches = cited_by_text.match(/Cited by (\d+[,\d]*)/)
-
-            if matches
-              citation_count = matches[1].sub(",", "").to_i
-            end
-          end
-
-        citation_count = Helpers.number_to_human(citation_count, :format => '%n%u', :precision => 2, :units => { :thousand => 'K', :million => 'M', :billion => 'B' })
-
-      rescue Exception => e
-        # Handle any errors that may occur during fetching
+      rescue OpenURI::HTTPError => e
+        # Handle HTTP errors (e.g., 404, 403)
+        puts "HTTP Error for #{article_url}: #{e.message}"
         citation_count = "N/A"
-
-        # Print the error message including the exception class and message
+      rescue StandardError => e
+        # Handle generic errors
         puts "Error fetching citation count for #{article_id}: #{e.class} - #{e.message}"
+        citation_count = "N/A"
       end
 
+      # Cache the citation count to reduce requests
+      Citations[article_id] = citation_count
 
-      GoogleScholarCitationsTag::Citations[article_id] = citation_count
+      # Return the formatted citation count
       return "#{citation_count}"
     end
   end
 end
 
-Liquid::Template.register_tag('google_scholar_citations', Jekyll::GoogleScholarCitationsTag)
+Liquid::Template.register_tag("google_scholar_citations", Jekyll::GoogleScholarCitationsTag)
+
