@@ -477,7 +477,24 @@
   booktitle={NeurIPS 2024 Workshop on Bayesian Decision-making and Uncertainty},
   bibtex_show={true},
   dimensions={true},
-  year={2024}
+  pdf={32.pdf},
+  url={https://openreview.net/forum?id=2fHwkHskpo},
+  html={https://openreview.net/forum?id=2fHwkHskpo},
+  year={2024},
+  abstract={We consider optimizing the inputs to a black-box function that produces highdimensional outputs such as natural language, images, or robot trajectories. A
+human decision maker (DM) has a utility function over these outputs. We may learn
+about the DM’s utility by presenting a small set of outputs and asking which one
+they prefer. We may learn about the black-box function by evaluating it at adaptively
+chosen inputs. Given a limited number of such learning opportunities, our goal is
+to find the input to the black box that maximizes the DM’s utility for the output
+generated. Previously proposed methods for this and related tasks either do not
+scale to high dimensional outputs or are statistically inefficient because they ignore
+information in the outputs. Our proposed approach overcomes these challenges
+using Bayesian optimization and a novel embedding of high-dimensional outputs
+into a low-dimensional latent space customized for this task. This embedding is
+designed to both minimize error when reconstructing high-dimensional outputs
+and support accurate prediction of human judgments. We demonstrate that this
+approach significantly improves over baseline methods.}
 }
 
 @book{einstein1956investigations,
