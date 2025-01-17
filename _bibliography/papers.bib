@@ -54,6 +54,7 @@
   selected={true},
   pdf={3.pdf},
   url={https://www.jair.org/index.php/jair/article/view/13643},
+  html={https://www.jair.org/index.php/jair/article/view/13643},
   doi={10.1613/jair.1.13643},
   bibtex_show={true},
   dimensions={true}
@@ -73,6 +74,8 @@
   doi={10.1021/acs.accounts.0c00403},
   bibtex_show={true},
   dimensions={true},
+  url={https://pubs.acs.org/doi/abs/10.1021/acs.accounts.0c00403},
+  html={https://pubs.acs.org/doi/abs/10.1021/acs.accounts.0c00403},
   abstract={The visualization of data is indispensable in scientific research, from the early stages when human insight forms to the final step of communicating results. In computational physics, chemistry and materials science, it can be as simple as making a scatter plot or as straightforward as looking through the snapshots of atomic positions manually. However, as a result of the “big data” revolution, these conventional approaches are often inadequate. The widespread adoption of high-throughput computation for materials discovery and the associated community-wide repositories have given rise to data sets that contain an enormous number of compounds and atomic configurations. A typical data set contains thousands to millions of atomic structures, along with a diverse range of properties such as formation energies, band gaps, or bioactivities.It would thus be desirable to have a data-driven and automated framework for visualizing and analyzing such structural data sets. The key idea is to construct a low-dimensional representation of the data, which facilitates navigation, reveals underlying patterns, and helps to identify data points with unusual attributes. Such data-intensive maps, often employing machine learning methods, are appearing more and more frequently in the literature. However, to the wider community, it is not always transparent how these maps are made and how they should be interpreted. Furthermore, while these maps undoubtedly serve a decorative purpose in academic publications, it is not always apparent what extra information can be garnered from reading or making them.This Account attempts to answer such questions. We start with a concise summary of the theory of representing chemical environments, followed by the introduction of a simple yet practical conceptual approach for generating structure maps in a generic and automated manner. Such analysis and mapping is made nearly effortless by employing the newly developed software tool ASAP. To showcase the applicability to a wide variety of systems in chemistry and materials science, we provide several illustrative examples, including crystalline and amorphous materials, interfaces, and organic molecules. In these examples, the maps not only help to sift through large data sets but also reveal hidden patterns that could be easily missed using conventional analyses.The explosion in the amount of computed information in chemistry and materials science has made visualization into a science in itself. Not only have we benefited from exploiting these visualization methods in previous works, we also believe that the automated mapping of data sets will in turn stimulate further creativity and exploration, as well as ultimately feed back into future advances in the respective fields. }
 }
 
@@ -85,7 +88,9 @@
   bibtex_show={true},
   dimensions={true},
   url={https://arxiv.org/abs/2106.03609},
-  pdf={5.pdf}
+  html={https://arxiv.org/abs/2106.03609},
+  pdf={5.pdf},
+  abstract={We introduce a method combining variational autoencoders (VAEs) and deep metric learning to perform Bayesian optimisation (BO) over high-dimensional and structured input spaces. By adapting ideas from deep metric learning, we use label guidance from the blackbox function to structure the VAE latent space, facilitating the Gaussian process fit and yielding improved BO performance. Importantly for BO problem settings, our method operates in semi-supervised regimes where only few labelled data points are available. We run experiments on three real-world tasks, achieving state-of-the-art results on the penalised logP molecule generation benchmark using just 3% of the labelled data required by previous approaches. As a theoretical contribution, we present a proof of vanishing regret for VAE BO.}
 }
 
 @article{2024_gauche,
@@ -98,7 +103,9 @@
   google_scholar_id={uJ-U7cs_P_0C},
   bibtex_show={true},
   dimensions={true},
-  html={https://proceedings.neurips.cc/paper_files/paper/2023/hash/f2b1b2e974fa5ea622dd87f22815f423-Abstract-Conference.html}
+  html={https://proceedings.neurips.cc/paper_files/paper/2023/hash/f2b1b2e974fa5ea622dd87f22815f423-Abstract-Conference.html},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/f2b1b2e974fa5ea622dd87f22815f423-Paper-Conference.pdf},
+  abstract={We introduce GAUCHE, an open-source library for GAUssian processes in CHEmistry. Gaussian processes have long been a cornerstone of probabilistic machine learning, affording particular advantages for uncertainty quantification and Bayesian optimisation. Extending Gaussian processes to molecular representations, however, necessitates kernels defined over structured inputs such as graphs, strings and bit vectors. By providing such kernels in a modular, robust and easy-to-use framework, we seek to enable expert chemists and materials scientists to make use of state-of-the-art black-box optimization techniques. Motivated by scenarios frequently encountered in practice, we showcase applications for GAUCHE in molecular discovery, chemical reaction optimisation and protein design. The codebase is made available at https://github.com/leojklarner/gauche.}
 }
 
 @article{2022_Griffiths,
@@ -113,10 +120,12 @@
   publisher={Royal Society of Chemistry},
   google_scholar_id={UxriW0iASnsC},
   html={https://pubs.rsc.org/en/content/articlehtml/2022/sc/d2sc04306h},
+  url={https://pubs.rsc.org/en/content/articlehtml/2022/sc/d2sc04306h},
   doi={10.1039/D2SC04306H},
   dimensions={true},
   bibtex_show={true},
-  altmetric={138309393}
+  altmetric={138309393},
+  abstract={Photoswitchable molecules display two or more isomeric forms that may be accessed using light. Separating the electronic absorption bands of these isomers is key to selectively addressing a specific isomer and achieving high photostationary states whilst overall red-shifting the absorption bands serves to limit material damage due to UV-exposure and increases penetration depth in photopharmacological applications. Engineering these properties into a system through synthetic design however, remains a challenge. Here, we present a data-driven discovery pipeline for molecular photoswitches underpinned by dataset curation and multitask learning with Gaussian processes. In the prediction of electronic transition wavelengths, we demonstrate that a multioutput Gaussian process (MOGP) trained using labels from four photoswitch transition wavelengths yields the strongest predictive performance relative to single-task models as well as operationally outperforming time-dependent density functional theory (TD-DFT) in terms of the wall-clock time for prediction. We validate our proposed approach experimentally by screening a library of commercially available photoswitchable molecules. Through this screen, we identified several motifs that displayed separated electronic absorption bands of their isomers, exhibited red-shifted absorptions, and are suited for information transfer and photopharmacological applications. Our curated dataset, code, as well as all models are made available at https://github.com/Ryan-Rhys/The-Photoswitch-Dataset.}
 }
 
 @article{2021_Griffiths,
