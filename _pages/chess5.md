@@ -5,5 +5,5 @@ Despite holding my own, for some time the field eventually proved too strong.
 I suffered a string of losses to Peruvian Grandmaster [Jorge Cori](https://en.wikipedia.org/wiki/Jorge_Cori), 
 Dutch Grandmaster [Robin van Kampen](https://en.wikipedia.org/wiki/Robin_van_Kampen), and Russian IM [Grigory Oparin](https://en.wikipedia.org/wiki/Grigoriy_Oparin). Despite this, I still had an
 opportunity to make an IM norm by beating my former roomate Callum Kilpatrick (who had had a terrible start after bizarrely losing to a little kid in the first round!). Unfortunately I lost this game.
-The picture is from the night before the rest day with [GM Aman Hambleton](https://en.wikipedia.org/wiki/Aman_Hambleton) of the famous [Chessbrah](https://www.youtube.com/chessbrah) YouTube channel 
+The picture is from the night before the rest day with [GM Aman Hambleton](https://en.wikipedia.org/wiki/Aman_Hambleton) of the famous [Chessbrah](https://www.youtube.com/chessbrah) YouTube channel, 
 [GM Das Debashis](https://en.wikipedia.org/wiki/Debashis_Das), IM Anwesh Upadhyaya, and IM Yang-Fan Zhou.
