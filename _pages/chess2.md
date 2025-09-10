@@ -1,3 +1,3 @@
 Playing in the IM norm group at the [First Saturday](https://firstsaturday.hu/) tournament in Budapest 2007. I played about 7 or 8 First Saturday tournaments from the ages of 13-16.
-They were fantastic events that brought together players from across the globe. Many notable names such as World Championship Candidate [Fabiano Caruana](https://en.wikipedia.org/wiki/Fabiano_Caruana), Women's World Champion [Hou Yifan](https://en.wikipedia.org/wiki/Hou_Yifan), and [S.P. Sethuraman](https://en.wikipedia.org/wiki/S._P._Sethuraman)
+They were fantastic events that brought together players from across the globe. Many notable names such as World Championship Candidate [Fabiano Caruana](https://en.wikipedia.org/wiki/Fabiano_Caruana), Women's World Champion [Hou Yifan](https://en.wikipedia.org/wiki/Hou_Yifan), and top Indiana Grandmaster [S.P. Sethuraman](https://en.wikipedia.org/wiki/S._P._Sethuraman)
 have played in First Saturday tournaments. Would thoroughly recommend.
