@@ -1,4 +1,4 @@
 In 2011 I played in the Hastings Masters. I recall after a somewhat average start to the tournament I managed to beat Australian IM [Aleksander Wohl](https://en.wikipedia.org/wiki/Aleksandar_Wohl)
-with the black pieces, leading, in the next round to the pictured game with White against Indian Grandmaster [Deep Sengupta](https://en.wikipedia.org/wiki/Deep_Sengupta). I seem to recall that I lost
+with the black pieces, leading, in the next round to the pictured game with White against Indian Grandmaster [Deep Sengupta](https://en.wikipedia.org/wiki/Deep_Sengupta). I lost
 very quickly having displaced my knight on a3 in an English. I remember that after the game, my Dad, who had been watching the game in the commentary room, relayed to me the commentators comments on my lack of appreciation for classicial chess principles!
 Following the loss to Sengupta I needed to beat IM Richard Bates with Black to make an IM norm, something I [failed to do](https://ru.chesstempo.com/game-database/game/richard-a-bates-vs-ryan-rhys-griffiths/3044349)!
