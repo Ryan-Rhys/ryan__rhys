@@ -1,0 +1,4 @@
+I became active in quizzing as a student at Imperial in 2012. After going to several pub quizzes at Imperial College Union I tried out unsuccesfully for the University Challenge Team in 2015.
+While at Cambridge, I made the team for Wolfson College in 2016 but we didn't make it on to televsion (only 5/32 Cambridge colleges are admitted each year). When I returned as a PhD student in 2018, however,
+I finally made it on as captain of the Wolfson team in 2019 (pictured). The result was somewhat anticlimatic as we were promptly eliminated by St. John's College Oxford in the first round. Highlights include
+being admonished by Jeremey Paxman for misreading a map of Africa (I answered Uganda thinking that Lake Victoria was the highlighted country!). Find the full episode [here](https://www.youtube.com/watch?v=iszrRT4Ylaw)
