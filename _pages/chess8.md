@@ -4,4 +4,4 @@ to play for Barbican in the 4NCL until I left for the USA in 2022. A highlight o
 [1873](https://www.saund.co.uk/britbase/varsitychess.html)
 
 Puzzle Solution: White can play 2. Bf7! placing Black in Zugzwang. The Black rook is unable to move and 2...g5 fails to 3.Ra6+ which forces Black to give up the Rook after 3...Rg6 4.Bxg6. Needless to say my 
-opponent was livid after botching this drawn position.
+opponent was livid after botching the draw.
