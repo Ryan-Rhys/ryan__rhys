@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ryan__rhys.github.io/ryan__rhys/sitemap.xml
+Sitemap: https://ryanrhys.com/sitemap.xml
