@@ -9,7 +9,7 @@ nav_order: 10
 Terms of Service, Effective Date: September 15, 2025
 
 1. Acceptance of Terms  
-   By using the Site (ryanrhys.com), you agree to these Terms. If you don’t agree, please do not use the Site.
+   By using the Site (ryan-rhys.com), you agree to these Terms. If you don’t agree, please do not use the Site.
 
 2. Content  
    All content on this Site (articles, research descriptions, posts) is provided for informational purposes only.  

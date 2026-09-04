@@ -10,7 +10,7 @@ nav_order: 11
 Privacy Policy, Effective Date: September 15, 2025
 
 1. Introduction  
-   Welcome to ryanrhys.com (the “Site”). I (Ryan-Rhys Griffiths) believe in protecting your privacy. This Privacy Policy explains what personal data I collect, why I collect it, how I use it, and how you can contact me about it.
+   Welcome to ryan-rhys.com (the “Site”). I (Ryan-Rhys Griffiths) believe in protecting your privacy. This Privacy Policy explains what personal data I collect, why I collect it, how I use it, and how you can contact me about it.
 
 2. What Data I Collect  
    • Information you provide: if you use the Contact form or email me, I collect your name and email address.  
