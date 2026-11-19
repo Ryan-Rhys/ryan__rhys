@@ -17,7 +17,7 @@ Welcome to my [personal website](https://ryan-rhys.com) and thank you for taking
 
 **Overview**
 
-I'm a Research Scientist working on AI in San Francisco. My current focus is on large reasoning models and in particular their capabilities in domains such as [mathematics](https://proceedings.neurips.cc/paper_files/paper/2023/file/58168e8a92994655d6da3939e7cc0918-Paper-Datasets_and_Benchmarks.pdf), [chemistry](https://arxiv.org/abs/2506.17238), and chess. Recently, after working in AI and machine learning for 12 years, I am becoming increasingly concerned about AI safety and the future of work.
+I'm a Research Scientist working on AI in San Francisco. My current focus is on large reasoning models and in particular their capabilities in domains such as [mathematics](https://proceedings.neurips.cc/paper_files/paper/2023/file/58168e8a92994655d6da3939e7cc0918-Paper-Datasets_and_Benchmarks.pdf), [chemistry](https://arxiv.org/abs/2506.17238), and chess. I serve as Director of Machine Learning and Partnerships for the [Fields Model Initiative](https://fieldsmodel.org).
 
 Other topics that interest me include probabilistic machine learning and AI4Science. I have worked on these topics at [Meta](https://research.facebook.com/), [Huawei Noah's Ark Lab](https://github.com/huawei-noah), [MILA](https://mila.quebec/en), and the [University of Cambridge](https://www.cam.ac.uk/), where I did my [PhD](https://www.repository.cam.ac.uk/items/af055887-133e-40b0-a2c5-cf24835a6698) in the Theory of Condensed Matter Group at the [Cavendish Laboratory](https://www.phy.cam.ac.uk/). Prior to that I did my undergrad in chemical physics at [Imperial College London](https://www.imperial.ac.uk/). 
 
